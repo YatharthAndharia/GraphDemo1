@@ -1,13 +1,13 @@
 {
-  "name": "Test SubGraph",
+  "name": "test subgraph",
   "license": "UNLICENSED",
   "scripts": {
     "codegen": "graph codegen",
     "build": "graph build",
-    "deploy": "graph deploy --node https://api.studio.thegraph.com/deploy/ Test SubGraph",
-    "create-local": "graph create --node http://localhost:8020/ Test SubGraph",
-    "remove-local": "graph remove --node http://localhost:8020/ Test SubGraph",
-    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 Test SubGraph"
+    "deploy": "graph deploy --node https://api.studio.thegraph.com/deploy/ test subgraph",
+    "create-local": "graph create --node http://localhost:8020/ test subgraph",
+    "remove-local": "graph remove --node http://localhost:8020/ test subgraph",
+    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 test subgraph"
   },
   "dependencies": {
     "@graphprotocol/graph-cli": "0.29.0",
